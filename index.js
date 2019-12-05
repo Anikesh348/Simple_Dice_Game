@@ -16,7 +16,7 @@ function myFunction() {
   } else if (randomNumber1 === randomNumber2) {
     document.querySelector("h1").innerHTML = "Draw";
   } else {
-    document.querySelector("h1").innerHTML = "Player 2 wins!!"
+    document.querySelector("h1").innerHTML = "Player 2 wins!!";
   }
 
   document.querySelector("button").innerHTML = "Play Again!!";
